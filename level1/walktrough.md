@@ -1,7 +1,15 @@
 ![all function](./resources/level1_functions.png "functions")
 
+```
+the main function will call the function gets() which is unsafe since it doesnt controle the size of the input.
+
+we will be giving input to the progm till we get an idea of the size of the buffer variable that was passed to gets to store our iput, our goal here is to overflow the buffer
+```
 ![main function](./resources/main_function.png "main function")
 
+```
+the run() function was never called in the program but was bundled in the compiled program so it has a starting address in the global memory allocated when the program was executed
+```
 ![run function](./resources/run_function.png "run function")
 
 ```
