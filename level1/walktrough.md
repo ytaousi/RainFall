@@ -1,8 +1,8 @@
-![all function](./level1_functions.png "functions")
+![all function](./resources/level1_functions.png "functions")
 
-![main function](./main_function.png "main function")
+![main function](./resources/main_function.png "main function")
 
-![run function](./run_function.png "run function")
+![run function](./resources/run_function.png "run function")
 
 ```
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA + adress of the run function so we can overflow the value of the EIP with adress of our function so it gets executed unstead of exiting the main function
