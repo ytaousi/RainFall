@@ -8,7 +8,7 @@ void p(void)
 
     fflush(stdout);
     gets(array)
-    if ( (returnAddress & 0xb0000000) == 0xb0000000)
+    if ( (returnAddress & 0xb0000000) == 0xb0000000) // this is a protection made on the return address
     {
         printf("subroutine does not return");
         exit(1);
