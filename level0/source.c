@@ -1,12 +1,10 @@
-#include <unistd.h>
-#include <stdlib.h>
-int main(int param_1,int param_2)
+int main(int argc,char **argv)
 
 {
-  int userInputVar;
-  char *array;
-  unsigned int userIdVar;
-  unsigned int groupIdVar;
+  int           userInputVar;
+  char          *array;
+  unsigned int  userIdVar;
+  unsigned int  groupIdVar;
   
   userInputVar = atoi(*(char **)(param_2 + 4));
   if (userInputVar == 0x1a7) // this is value 423 in hex

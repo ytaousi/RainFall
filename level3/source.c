@@ -2,11 +2,11 @@ void v(void)
 {
   char local_20c [520];
   
-  fgets(local_20c,0x200,stdin);
+  fgets(local_20c,0x200,0);
   printf(local_20c);
   if (m == 0x40) // this is the value for 64
   {
-    fwrite("Wait what?!\n",1,0xc,stdout);
+    fwrite("Wait what?!\n",1,0xc,1);
     system("/bin/sh");
   }
   return;

@@ -1,8 +1,6 @@
-#include <unistd.h>
-#include <stdlib.h>
 void run(void)
 {
-    fwrite("Good... Wait what?\n",1,0x13,stdout); // check stdout
+    fwrite("Good... Wait what?\n",1,0x13,1);
     system("/bin/sh");
     return;
 }
