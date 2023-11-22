@@ -1,14 +1,13 @@
 void m(void *param_1,int param_2,char *param_3,int param_4,int param_5)
-
 {
   time_t tVar1;
 
-  tVar1 = time((time_t *)0x0);
+  tVar1 = time((time_t *)0);
   printf("%s - %d\n",c,tVar1);
   return;
 }
 
-undefined4 main(undefined4 param_1,int param_2)
+int main(int ac,int param_2)
 {
   undefined4    *array1; // array of 8 byte// this will hold argv[1] after strcpy() call
   void          *array2; 

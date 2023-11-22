@@ -1,5 +1,4 @@
-void main(undefined4 param_1,int param_2)
-
+void main(int ac,int param_2)
 {
   char *__dest;
   code **ppcVar1;
@@ -14,7 +13,6 @@ void main(undefined4 param_1,int param_2)
 
 
 void m(void *param_1,int param_2,char *param_3,int param_4,int param_5)
-
 {
   puts("Nope");
   return;
@@ -22,7 +20,6 @@ void m(void *param_1,int param_2,char *param_3,int param_4,int param_5)
 
 
 void n(void)
-
 {
   system("/bin/cat /home/user/level7/.pass");
   return;

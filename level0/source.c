@@ -6,7 +6,7 @@ int main(int argc,char **argv)
   unsigned int  userIdVar;
   unsigned int  groupIdVar;
   
-  userInputVar = atoi(*(char **)(param_2 + 4));
+  userInputVar = atoi(*(char **)(argv + 4));
   if (userInputVar == 0x1a7) // this is value 423 in hex
   {
     array = strdup("/bin/sh");
@@ -17,7 +17,7 @@ int main(int argc,char **argv)
     execv("/bin/sh",&array);
   }
   else {
-    fwrite("No !\n",1,5,(FILE *)stderr);
+    fwrite("No !\n",1,5,2);
   }
   return 0;
 }

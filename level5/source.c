@@ -1,22 +1,20 @@
 void o(void)
 {
   system("/bin/sh");
-                    /* WARNING: Subroutine does not return */
   _exit(1);
 }
 
 void n(void)
 {
-  char local_20c [520];
+  char array[520];
 
-  fgets(local_20c,0x200,0);
-  printf(local_20c);
-                    /* WARNING: Subroutine does not return */
+  fgets(array,0x200,0);
+  printf(array);
   exit(1);
 }
 
 void main(void)
 {
     n();
-    return();
+    return(0);
 }

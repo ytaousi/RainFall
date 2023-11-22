@@ -1,9 +1,11 @@
+int m = 0;
+
 void v(void)
 {
-  char local_20c [520];
+  char array[520];
   
-  fgets(local_20c,0x200,0);
-  printf(local_20c);
+  fgets(array,0x200,0);
+  printf(array);
   if (m == 0x40) // this is the value for 64
   {
     fwrite("Wait what?!\n",1,0xc,1);
